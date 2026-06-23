@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBadge"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:cardCornerRadius="35dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="?android:attr/colorBackground">
+
+        <ImageView
+            android:id="@+id/ivBadgeIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_default_badge" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvBadgeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Badge Name"
+        android:textSize="11sp"
+        android:maxLines="2"
+        android:gravity="center"
+        android:textColor="@color/text_muted_light" />
+
+    <TextView
+        android:id="@+id/tvBadgePoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+100 pts"
+        android:textSize="9sp"
+        android:textColor="@color/accent_green_bright" />
+
+</LinearLayout>

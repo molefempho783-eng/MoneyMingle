@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 38sp — large monetary amounts (ExpenseDetail hero) -->
+    <style name="TextAppearance.MoneyMingle.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">38sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.025</item>
+    </style>
+
+    <!-- 57sp — reserved for future extra-large display -->
+    <style name="TextAppearance.MoneyMingle.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">57sp</item>
+        <item name="android:letterSpacing">-0.025</item>
+    </style>
+
+    <!-- 32sp — Dashboard R 0.00 amount -->
+    <style name="TextAppearance.MoneyMingle.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+
+    <!-- 24sp — mid-level headers -->
+    <style name="TextAppearance.MoneyMingle.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 22sp — standard screen list header (ExpenseList, BudgetOverview, Categories, Achievements) -->
+    <style name="TextAppearance.MoneyMingle.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 20sp — screen titles, reflection scorecard numbers -->
+    <style name="TextAppearance.MoneyMingle.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 16sp/600 — card labels, list item primary text -->
+    <style name="TextAppearance.MoneyMingle.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontWeight">600</item>  <!-- API 28+ only; falls back to regular on API 24-27 -->
+    </style>
+
+    <!-- 13sp/700 — quick-link label, small card titles -->
+    <style name="TextAppearance.MoneyMingle.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 16sp — general content -->
+    <style name="TextAppearance.MoneyMingle.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 14sp — list descriptions, form field text -->
+    <style name="TextAppearance.MoneyMingle.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 13sp — subtitles, secondary text, date labels -->
+    <style name="TextAppearance.MoneyMingle.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- 14sp/500 — button labels -->
+    <style name="TextAppearance.MoneyMingle.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontWeight">500</item>  <!-- API 28+ only -->
+    </style>
+
+    <!-- 12sp/500 — metadata, muted text, chip labels -->
+    <style name="TextAppearance.MoneyMingle.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontWeight">500</item>  <!-- API 28+ only -->
+    </style>
+
+    <!-- 11sp/700 UPPERCASE — section titles (.section-title in CSS: 11px bold uppercase 0.1em spacing) -->
+    <style name="TextAppearance.MoneyMingle.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_dashboardHomeFragment"
+            app:destination="@id/dashboardHomeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_dashboardHomeFragment"
+            app:destination="@id/dashboardHomeFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_dashboardHomeFragment"
+            app:destination="@id/dashboardHomeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboardHomeFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.DashboardHomeFragment"
+        android:label="fragment_dashboard_home"
+        tools:layout="@layout/fragment_dashboard_home" >
+        <action
+            android:id="@+id/action_dashboardHomeFragment_to_expenseListFragment"
+            app:destination="@id/expenseListFragment" />
+        <action
+            android:id="@+id/action_dashboardHomeFragment_to_budgetOverviewFragment"
+            app:destination="@id/budgetOverviewFragment" />
+        <action
+            android:id="@+id/action_dashboardHomeFragment_to_categoriesFragment"
+            app:destination="@id/categoriesFragment" />
+        <action
+            android:id="@+id/action_dashboardHomeFragment_to_wishlistFragment"
+            app:destination="@id/wishlistFragment" />
+        <action
+            android:id="@+id/action_dashboardHomeFragment_to_endOfMonthReflectionFragment"
+            app:destination="@id/endOfMonthReflectionFragment" />
+        <action
+            android:id="@+id/action_dashboardHomeFragment_to_achievementsFragment"
+            app:destination="@id/achievementsFragment" />
+        <action
+            android:id="@+id/action_dashboardHomeFragment_to_moodTrackerFragment"
+            app:destination="@id/moodTrackerFragment" />
+        <action
+            android:id="@+id/action_dashboardHomeFragment_to_profileSettingsFragment"
+            app:destination="@id/profileSettingsFragment" />
+        <action
+            android:id="@+id/action_dashboardHomeFragment_to_subscriptionManagerFragment"
+            app:destination="@id/subscriptionManagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/expenseListFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.ExpenseListFragment"
+        android:label="fragment_expense_list"
+        tools:layout="@layout/fragment_expense_list" >
+        <action
+            android:id="@+id/action_expenseListFragment_to_addEditExpenseFragment"
+            app:destination="@id/addEditExpenseFragment" />
+        <action
+            android:id="@+id/action_expenseListFragment_to_expenseDetailFragment2"
+            app:destination="@id/expenseDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditExpenseFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.AddEditExpenseFragment"
+        android:label="fragment_add_edit_expense"
+        tools:layout="@layout/fragment_add_edit_expense" >
+        <argument
+            android:name="expenseId"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/action_addEditExpenseFragment_to_categoriesFragment"
+            app:destination="@id/categoriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/expenseDetailFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.ExpenseDetailFragment"
+        android:label="fragment_expense_detail"
+        tools:layout="@layout/fragment_expense_detail" >
+        <argument
+            android:name="expenseId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_expenseDetailFragment_to_addEditExpenseFragment2"
+            app:destination="@id/addEditExpenseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/budgetOverviewFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.BudgetOverviewFragment"
+        android:label="fragment_budget_overview"
+        tools:layout="@layout/fragment_budget_overview" >
+        <action
+            android:id="@+id/action_budgetOverviewFragment_to_spendingGraphFragment"
+            app:destination="@id/spendingGraphFragment" />
+        <action
+            android:id="@+id/action_budgetOverviewFragment_to_categoriesFragment2"
+            app:destination="@id/categoriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" >
+        <action
+            android:id="@+id/action_categoriesFragment_to_addEditCategoryFragment"
+            app:destination="@id/addEditCategoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditCategoryFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.AddEditCategoryFragment"
+        android:label="fragment_add_edit_category"
+        tools:layout="@layout/fragment_add_edit_category">
+        <argument
+            android:name="categoryId"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/spendingGraphFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.SpendingGraphFragment"
+        android:label="fragment_spending_graph"
+        tools:layout="@layout/fragment_spending_graph" />
+    <fragment
+        android:id="@+id/wishlistFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.WishlistFragment"
+        android:label="fragment_wishlist"
+        tools:layout="@layout/fragment_wishlist" >
+        <action
+            android:id="@+id/action_wishlistFragment_to_addEditWishlistItemFragment"
+            app:destination="@id/addEditWishlistItemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/endOfMonthReflectionFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.EndOfMonthReflectionFragment"
+        android:label="fragment_end_of_month_reflection"
+        tools:layout="@layout/fragment_end_of_month_reflection" />
+    <fragment
+        android:id="@+id/addEditWishlistItemFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.AddEditWishlistItemFragment"
+        android:label="fragment_add_edit_wishlist_item"
+        tools:layout="@layout/fragment_add_edit_wishlist_item">
+        <argument
+            android:name="goalId"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.AchievementsFragment"
+        android:label="fragment_achievements"
+        tools:layout="@layout/fragment_achievements" >
+        <action
+            android:id="@+id/action_achievementsFragment_to_budgetChallengesFragment"
+            app:destination="@id/budgetChallengesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moodTrackerFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.MoodTrackerFragment"
+        android:label="fragment_mood_tracker"
+        tools:layout="@layout/fragment_mood_tracker" >
+        <action
+            android:id="@+id/action_moodTrackerFragment_to_achievementsFragment"
+            app:destination="@id/achievementsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/budgetChallengesFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.BudgetChallengesFragment"
+        android:label="Budget Challenges"
+        tools:layout="@layout/fragment_budget_challenges">
+
+        <!-- Action to navigate to Wishlist Fragment -->
+        <action
+            android:id="@+id/action_budgetChallengesFragment_to_wishlistFragment"
+            app:destination="@id/wishlistFragment" />
+
+        <!-- Action to navigate to Expenses Tab (ExpenseListFragment) -->
+        <action
+            android:id="@+id/action_budgetChallengesFragment_to_expenseListFragment"
+            app:destination="@id/expenseListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileSettingsFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part2.ProfileSettingsFragment"
+        android:label="fragment_profile_settings"
+        tools:layout="@layout/fragment_profile_settings" >
+        <action
+            android:id="@+id/action_profileSettingsFragment_to_subscriptionManagerFragment"
+            app:destination="@id/subscriptionManagerFragment" />
+        <action
+            android:id="@+id/action_profileSettingsFragment_to_recurringTransactionsFragment"
+            app:destination="@id/recurringTransactionsFragment" />
+        <action
+            android:id="@+id/action_profileSettingsFragment_to_splashFragment"
+            app:destination="@id/splashFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/subscriptionManagerFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.SubscriptionManagerFragment"
+        android:label="fragment_subscription_manager"
+        tools:layout="@layout/fragment_subscription_manager" >
+        <action
+            android:id="@+id/action_subscriptionManagerFragment_to_addEditSubscriptionFragment"
+            app:destination="@id/addEditSubscriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recurringTransactionsFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.RecurringTransactionsFragment"
+        android:label="fragment_recurring_transactions"
+        tools:layout="@layout/fragment_recurring_transactions" >
+        <action
+            android:id="@+id/action_recurringTransactionsFragment_to_addEditRecurringTransactionsFragment"
+            app:destination="@id/addEditRecurringTransactionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditRecurringTransactionsFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.AddEditRecurringTransactionsFragment"
+        android:label="fragment_add_edit_recurring_transactions"
+        tools:layout="@layout/fragment_add_edit_recurring_transactions" />
+    <fragment
+        android:id="@+id/addEditSubscriptionFragment"
+        android:name="com.iie.group8_prog7313_poe_pt_2.view.part3.AddEditSubscriptionFragment"
+        android:label="fragment_add_edit_subscription"
+        tools:layout="@layout/fragment_add_edit_subscription">
+        <argument
+            android:name="subscriptionId"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+    <!--
+      Reference list :
+      - Android Developers, 2026. Navigation graph and destinations [online]. Available at:
+        <https://developer.android.com/guide/navigation/design> [Accessed 20 April 2026].
+    -->
+</navigation>

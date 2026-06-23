@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">Group 8_PROG7313_POE_PT_2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- POE PART 3 -->
+    <!-- MM-219-223 GAMIFICATION -->
+    <string name="badges_header">Badges</string>
+    <string name="level_header">Level</string>
+    <string name="total_points_header">Total Points</string>
+    <string name="current_streak_header">Current Streak</string>
+    <string name="days">days</string>
+    <string name="best_streak_header">Best Streak</string>
+    <string name="streak_description_header">Log at least one expense everyday to build your streak!</string>
+    <string name="streak_master_header">Streak Master Badge</string>
+    <string name="active_btn">Active</string>
+    <string name="progress">Progress: 0/7 days</string>
+    <string name="log_expense_description">Log the first expense of each month to earn a special bonus badge!</string>
+    <string name="log_expense_early_bird">Early Bird Badge</string>
+    <string name="not_earned_btn">Not Earned</string>
+    <string name="budget_challenges_header">Budget Challenges</string>
+    <string name="budget_header">Complete challenges to earn badges and build great habits!</string>
+    <string name="challenges_header">Weekly Challenges</string>
+    <string name="receipt_challenge_header">Receipt Hunter</string>
+    <string name="receipt_challenge_description_2">Attach receipts to 5 expenses in one week </string>
+    <string name="receipt_challenge_badge">Receipt Hunter badge</string>
+    <string name="join_btn">Join</string>
+    <string name="wishlist_challenge_header">Add items to your wishlist and successfully save up to purchase them!</string>
+    <string name="wishlist_challenge_badge">Wishlist Master Badge</string>
+    <string name="view_wishlist_btn">View Wishlist</string>
+    <string name="wishlist_challenge_items">Items achieved: 0</string>
+    <string name="logging_streak">Logging Streak</string>
+    <string name="bonus_header">First of Month Bonus</string>
+    <string name="monthly_challenges_header">Monthly Challenges</string>
+    <string name="wishlist_header">Wishlist Achiever</string>
+    <string name="earned_badges_header">Earned Badges</string>
+    <string name="weekly_receipt_description">Upload receipts on 5 expenses this week to earn 75 points!</string>
+    <string name="monthly_receipt_challenge_header">Monthly Receipt Champion</string>
+    <string name="monthly_receipt_challenge_description">Upload receipts on 10 expenses this month to earn 150 points!</string>
+    <string name="monthly_receipt_challenge_badge">Monthly Receipt Badge</string>
+    <string name="claim_reward_btn">Claim Reward!</string>
+    <string name="claimed_btn">Claimed </string>
+
+    <!-- MM-206/209 BUDGET SPENDING GRAPH -->
+    <string name="spending_graph_heading">Spending Graph</string>
+    <string name="spending_graph_subheading">Visual Trend over time</string>
+
+    <string name="Graph_header">Spending Graph</string>
+    <string name="month_1">1M</string>
+    <string name="month_3">3M</string>
+    <string name="month_6">6M</string>
+    <string name="year_1">1Y</string>
+    <string name="spending_per_cat">Spending per category - March 2026</string>
+    <string name="colour_key">Goal Indicators</string>
+    <string name="colour_key_spend">Actual spend</string>
+    <string name="colour_key_min_goal">Min goal</string>
+    <string name="colour_key_max_goal">Max goal</string>
+
+    <!-- DASHBOARD -->
+    <string name="monthly_Budget_Dashboard">Monthly Budget</string>
+    <string name="quick_Links_Dashboard">Quick Links</string>
+    <string name="categories_Dashboard">Categories</string>
+    <string name="wishlist_Dashboard">Wishlist </string>
+    <string name="reflection_Dashboard">Reflection</string>
+    <string name="mood_Log_Dashboard">Mood Log</string>
+    <string name="category_Progress_Dashboard">Category Progress</string>
+
+    <!-- SUBHEADINGS DASHBOARD-->
+
+    <string name="categories_Link_Dashboard">Manage goals</string>
+    <string name="wishlist_Link_Dashboard">Saving goals</string>
+    <string name="subscription_Dashboard">Subscriptions</string>
+    <string name="subscription_Link_Dashboard">Monthly overview</string>
+    <string name="money_Spent_Remaining_Dashboard">R0.00 spent R0.00 remaining</string>
+    <string name="budget_Used_Dashboard">0% of budget used</string>
+    <string name="streak_dashboard">O Day Streak</string>
+    <string name="streak_info_dashboard">Log an expense to start your streak</string>
+
+
+    <!-- MM-18 Expense list -->
+    <string name="expense_list_title">Expenses</string>
+    <string name="expense_list_empty">No expenses yet. Add one from the dashboard when you are ready.</string>
+    <string name="expense_category_uncategorised">Uncategorised</string>
+
+    <!-- MM-23 Expense list filter -->
+    <string name="expense_filter_this_month">This Month</string>
+    <string name="expense_filter_last_month">Last Month</string>
+    <string name="expense_filter_custom">Custom</string>
+    <string name="expense_add_fab_cd">Add expense</string>
+
+    <!-- MM-19 / MM-24 Add edit expense -->
+    <string name="add_edit_expense_title_new">Add expense</string>
+    <string name="add_edit_expense_title_edit">Edit expense</string>
+    <string name="expense_field_amount_hint">Amount</string>
+    <string name="expense_field_description_hint">Description</string>
+    <string name="expense_field_category_hint">Category</string>
+    <string name="expense_manage_categories">Manage categories</string>
+    <string name="expense_pick_date">Pick date</string>
+    <string name="expense_photo_camera">Camera</string>
+    <string name="expense_photo_gallery">Gallery</string>
+    <string name="expense_photo_remove">Remove photo</string>
+    <string name="expense_photo_none">No receipt attached</string>
+    <string name="expense_save">Save expense</string>
+    <string name="expense_attach_receipt_title">Attach Receipt</string>
+    <string name="expense_attach_receipt_subtitle">Optional · Tap to take photo or browse gallery</string>
+    <string name="expense_select_date_title">Expense date</string>
+
+    <!-- MM-24 validation -->
+    <string name="error_expense_amount">Enter an amount greater than zero.</string>
+    <string name="error_expense_description">Description is required.</string>
+    <string name="error_expense_category_required">Select a category.</string>
+    <string name="error_expense_no_categories">Add at least one category before recording an expense.</string>
+    <string name="error_expense_date">Pick a valid date.</string>
+
+    <!-- MM-21 / MM-22 Detail -->
+    <string name="expense_detail_amount_label">Amount</string>
+    <string name="expense_detail_date_label">Date</string>
+    <string name="expense_detail_description_label">Description</string>
+    <string name="expense_detail_category_label">Category</string>
+    <string name="expense_detail_edit">Edit</string>
+    <string name="expense_detail_delete">Delete</string>
+    <string name="expense_detail_delete_confirm_title">Delete expense?</string>
+    <string name="expense_detail_delete_confirm_message">This cannot be undone.</string>
+    <string name="expense_detail_missing">This expense could not be found.</string>
+    <string name="expense_detail_receipt_cd">Receipt image</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_delete">Delete</string>
+
+    <!-- Savings goals / wishlist -->
+    <string name="wishlist_section_label">YOUR SAVINGS GOALS</string>
+    <string name="wishlist_title">Saving goals</string>
+    <string name="wishlist_empty">No savings goals yet. Tap below to create your first goal.</string>
+    <string name="wishlist_add_goal">+ Add savings goal</string>
+    <string name="wishlist_add_savings">Add savings</string>
+    <string name="wishlist_completed">Completed!</string>
+    <string name="wishlist_progress_percent">%1$d%% saved</string>
+    <string name="wishlist_target_date">Target: %1$s</string>
+    <string name="wishlist_add_edit_title_add">Add savings goal</string>
+    <string name="wishlist_add_edit_title_edit">Edit savings goal</string>
+    <string name="wishlist_goal_name">Goal name</string>
+    <string name="wishlist_goal_name_hint">e.g. Laptop, Trip</string>
+    <string name="wishlist_target_amount">Target amount (R)</string>
+    <string name="wishlist_target_date_label">Target date</string>
+    <string name="wishlist_select_date">Select target date</string>
+    <string name="wishlist_save">Save goal</string>
+    <string name="wishlist_save_changes">Save changes</string>
+    <string name="wishlist_delete">Delete goal</string>
+    <string name="wishlist_delete_confirm_title">Delete savings goal?</string>
+    <string name="wishlist_delete_confirm_message">This cannot be undone.</string>
+    <string name="wishlist_contribution_title">Add savings</string>
+    <string name="wishlist_contribution_amount">Amount saved (R)</string>
+    <string name="wishlist_contribution_add">Add</string>
+    <string name="wishlist_error_name">Goal name is required.</string>
+    <string name="wishlist_error_target">Enter a target amount greater than zero.</string>
+    <string name="wishlist_error_date">Select a target date.</string>
+    <string name="wishlist_error_contribution">Enter an amount greater than zero.</string>
+
+    <!-- SPLASH -->
+    <string name="logo_Name1">Money</string>
+    <string name="logo_Name2">Mingle</string>
+    <string name="greeting_Text">Track spending Reach goals Grow financially</string>
+    <string name="login_text">I already have an account</string>
+    <string name="signup_text">Get Started</string>
+    <string name="money_mingle_description">Money mingle logo</string>
+    <string name="budget_pill">Budgets</string>
+    <string name="goals_pill">Goals</string>
+    <string name="rewards_pill">Rewards</string>
+
+    <!-- LOGIN -->
+    <string name="signInMessage">Sign In</string>
+    <string name="signInDescription">Continue your financial journey.</string>
+    <string name="usernameInputText">Enter email</string>
+    <string name="signInButtonMessage">Sign In</string>
+    <string name="bottomMessage">Don\'t have an account? <u>Register</u></string>
+
+    <!-- MM-29 Budget Overview -->
+    <string name="budget_overview_label">OVERVIEW</string>
+    <string name="budget_overview_title">Budget</string>
+    <string name="budget_section_spending">SPENDING BY CATEGORY</string>
+    <string name="budget_empty_state">No budget goals set for this month.\nTap \'Manage Categories\' to add goals.</string>
+    <string name="budget_navigate_label">NAVIGATE</string>
+    <string name="budget_navigate_categories_title">Manage Categories</string>
+    <string name="budget_navigate_categories_subtitle">Edit budget goals</string>
+    <string name="budget_navigate_arrow">›</string>
+
+    <!-- MM-215/217/218 Subscription Manager -->
+    <string name="subscription_label">Subscriptions</string>
+    <string name="subscription_title">Subscriptions</string>
+    <string name="subscription_monthly_total_label">Monthly total</string>
+    <string name="subscription_list_empty">No subscriptions yet.\nTap + to add one.</string>
+    <string name="subscription_add_fab_cd">Add subscription</string>
+    <string name="add_edit_subscription_title_new">Add subscription</string>
+    <string name="add_edit_subscription_title_edit">Edit subscription</string>
+    <string name="subscription_field_name_hint">Name</string>
+    <string name="subscription_field_amount_hint">Amount (R)</string>
+    <string name="subscription_field_billing_cycle_hint">Billing cycle</string>
+    <string name="subscription_field_start_date_hint">Start date</string>
+    <string name="subscription_select_date_title">Subscription start date</string>
+    <string name="subscription_save">Save subscription</string>
+    <string name="subscription_delete">Delete subscription</string>
+    <string name="subscription_delete_confirm_title">Delete subscription?</string>
+    <string name="subscription_delete_confirm_message">This cannot be undone.</string>
+
+    <!-- MM-216 Subscription validation -->
+    <string name="error_subscription_name">Subscription name is required.</string>
+    <string name="error_subscription_amount">Enter an amount greater than zero.</string>
+
+    <!--Add/Edit Category-->
+    <string name="categoryTitleName">Add category</string>
+    <string name="categoryName">Category name</string>
+    <string name="minGoalCategory">Monthly min goal (R)</string>
+    <string name="maxGoalCategory">Monthly max goal (R)</string>
+    <string name="infoBlurb">The min goal is your spending floor. The max goal is your ceiling - exceeding it will trigger a warning.</string>
+    <string name="buttonAddCategory">Add Category</string>
+    <string name="buttonDeleteCategory">Delete Category</string>
+</resources>

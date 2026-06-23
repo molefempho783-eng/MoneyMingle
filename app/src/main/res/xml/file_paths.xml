@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="receipts"
+        path="receipts/" />
+    <cache-path
+        name="cache"
+        path="." />
+    <!--
+      Reference list :
+      - Android Developers, 2026. Share a file with FileProvider [online]. Available at:
+        <https://developer.android.com/training/secure-file-sharing/setup-sharing> [Accessed 20 April 2026].
+    -->
+</paths>

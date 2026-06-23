@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Money Mingle -->
+    <color name="money_color">#FFFFFFFF</color>
+    <color name="mingle_color">#908EFB</color>
+
+    <!-- ── Brand ── -->
+    <color name="brand">#6D47FE</color>
+    <color name="brand_dark">#4A2FD4</color>
+    <color name="brand_hero_dark">#2D1A7A</color>       <!-- 3rd stop of hero gradient -->
+    <color name="brand_purple_mid">#A554F7</color>
+    <color name="brand_container_dark">#2A1F4E</color>
+    <color name="brand_container_light">#EDE9FF</color>
+
+    <!-- ── Dark theme backgrounds ── -->
+    <color name="bg_dark">#0C0B18</color>
+    <color name="surface_dark">#161525</color>
+    <color name="surface_2_dark">#1E1D30</color>
+    <color name="surface_3_dark">#252440</color>
+
+    <!-- ── Dark theme text ── -->
+    <color name="text_dark">#EEEAF8</color>
+    <color name="text_muted_dark">#7C78A8</color>
+
+    <!-- ── Light theme backgrounds ── -->
+    <color name="bg_light">#F0EEFB</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_2_light">#F4F2FD</color>
+    <color name="surface_3_light">#ECEAFC</color>
+
+    <!-- ── Light theme text ── -->
+    <color name="text_light">#1A1A2E</color>
+    <color name="text_muted_light">#6B6B8A</color>
+
+    <!-- ── Semantic colours (dark) ── -->
+    <color name="danger_dark">#F87171</color>
+    <color name="success_dark">#4ADE80</color>
+    <color name="warning_dark">#FBBF24</color>
+
+    <!-- ── Semantic colours (light) ── -->
+    <color name="delete_button">#05ff1100</color>
+    <color name="danger_light">#E53E3E</color>
+    <color name="success_light">#38A169</color>
+    <color name="warning_light">#D97706</color>
+
+    <!-- ── Accent colours (same across both themes) ── -->
+    <color name="accent_orange">#F97316</color>         <!-- streak / fire -->
+    <color name="accent_orange_light">#FB923C</color>   <!-- fire icon variant (AchievementsScreen) -->
+    <color name="accent_cyan">#22D3EE</color>           <!-- reflection / categories -->
+    <color name="accent_amber">#F59E0B</color>          <!-- wishlist / goals -->
+    <color name="accent_pink">#EC4899</color>           <!-- mood tracker icon -->
+    <color name="accent_purple_light">#A78BFA</color>   <!-- categories, chart series, badges -->
+    <color name="accent_green_bright">#22C55E</color>   <!-- income, completed goals, success alt -->
+    <color name="accent_lime">#84CC16</color>           <!-- mood: good -->
+    <color name="accent_yellow">#EAB308</color>         <!-- mood: okay, badge star -->
+    <color name="accent_sky">#0EA5E9</color>            <!-- mood detective badge -->
+
+    <!-- ── Service brand colours (example subscription data only — not core palette) ── -->
+    <color name="accent_netflix">#E50914</color>    <!-- pre-populated Netflix example entry -->
+    <color name="accent_spotify">#1DB954</color>    <!-- pre-populated Spotify example entry -->
+
+    <!-- ── Utility ── -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
