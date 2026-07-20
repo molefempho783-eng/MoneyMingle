@@ -1,11 +1,5 @@
 
 # Money Mingle
-
-
-## Demo Video
-
-[Click here to watch the demo video](https://youtu.be/-9P8GcGPXVE)
-
 ---
 
 ## Overview
