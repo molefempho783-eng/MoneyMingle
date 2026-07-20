@@ -1,10 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kSi58dQ9)
 
 # Money Mingle
 
-**Module:** PROG7313 Programming 3C
-**Group members:** ST10434242, ST10446408, ST10317078, ST10443277, ST10294763
-**Part:** 3 - Final PoE
 
 ## Demo Video
 
